@@ -5,9 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-component": "vue-cli-service build --target lib --name wysivue"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^25.0.0",
+    "@ckeditor/ckeditor5-vue2": "^1.0.5",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
